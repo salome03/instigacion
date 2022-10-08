@@ -1,0 +1,60 @@
+@import url(../font/LiberationSerif-regular.ttf);
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+.banner{
+position: relative;
+widows: 100%;
+height: calc(108vh- 50px);
+background-image: url(../investigacion/img/banner.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}*/
+.contenido{
+    margin: 0%;
+    padding: 20%;
+    width: 99%;
+    height: 99%;
+    color: rgb(4, 2, 2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.contenido h1{
+    margin: 20px;
+    font-size: 30px;
+}
+.contenido h2{
+    margin: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+ h1,h2{
+    font-family:  'Liberation Serif';
+    font-size: 30px;
+   }
+   
+   p,li{
+       font-family:'Times New Roman', Times, serif;
+       font-size: 20px;
+      }
+       
+
